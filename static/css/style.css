@@ -6,7 +6,7 @@ body {
 }
 
 .bg-warning {
-    background-color: black!important;
+    background-color: #97a2c7!important;
 }
 
 .btn {
@@ -26,7 +26,7 @@ body {
     text-transform: uppercase;
 }
 .btn:hover {
-    background: darkslateblue linear-gradient(to bottom, darkslateblue 5%, darkslateblue 100%);
+    background: #dfdfdf linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
 }
 .btn:active {
     position:relative;
