@@ -1,0 +1,13 @@
+asgiref
+certifi
+dj-database-url
+dj-static
+Django
+django-heroku
+gunicorn
+psycopg2
+pytz
+sqlparse
+static3
+whitenoise
+wincertstore
