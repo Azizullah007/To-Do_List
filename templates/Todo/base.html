@@ -11,14 +11,16 @@
 
     <link rel="icon" type="image/png"  href="{% static '' %}">
     <title>To-do List</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
 </head>
 <body>
 
 
-<nav class="navbar navbar-expand-md navbar-light bg-warning">
+<nav class="navbar navbar-expand-lg navbar-dark primary-color">
 <div class="container">
     <a class="navbar-brand" href="{% url 'home' %}">
-         <img src="{% static "todo/logo1.png" %}" width="30" height="30" class="d-inline-block align-top" alt="My image">
+{#         <img src="{% static "todo/new.png" %}" width="30" height="30" class="d-inline-block align-top" alt="My image">#}
         <span>To-do List</span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,7 +64,7 @@
 </div>
 </nav>
 
-<div class="container">
+<div class="container2">
 {% block content %}{% endblock %}
 </div>
 
